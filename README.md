@@ -1,21 +1,7 @@
 # Java Çalışanlar Uygulaması
 
-## Giriş
 
-Bu proje aşağıdaki kavramların anlaşılması için oluşturulmuştur.
-
-* Java ve JDK'nın birlikte çalışması
-* Java'nın Temelleri
-* Nesne Tabanlı Java Uygulamalarının temelleri
-
-Bununla birlikte bir java uygulamasında sınıfların ve nesnelerin nasıl kullanıldığını ve Java'daki veri türlerinin nasıl uygulandığına odaklanır.
-
-## Talimatlar
-
-### Görev 1: Proje Kurulumu
-Bu projeyi forkladıktan sonra bilgisayarınıza klonlayın.
-
-### Görev 2: 
+## Görev 1: 
  * 3 tane sınıf oluşturmalısınız. ```Company```, ```Healthplan```, ```Employee```
  * Yazılacak tüm sınıflardaki sınıf değişkenleri  ```private``` olarak tanımlanmalı. Hepsi için getter & setter metodları yazılmalı. Her sınıfın toString() metodu ezilmeli. Her sınıf için en az bir tane ```constructor``` tanımlanmalı.
  * ```Healthplan``` sınıfı  ```id```, ```name``` ve ```plan``` isminde 3 adet sınıf değişkeninden oluşmalı.
@@ -27,7 +13,7 @@ Bu projeyi forkladıktan sonra bilgisayarınıza klonlayın.
  * Company sınıfı içerisinde ```addEmployee(int index, String name)``` isimli bir metod tanımlayınız. Amacımız developerNames dizisine parametre olarak gelen name değerini atamak. İlgili index değeri dizi içerisinde boşsa parametre olarak gelen ```name``` değişkeni ilgili indexe yazılmalı. İlgili index doluysa dolu olduğuna dair bir mesaj verilmeli. İlgili index değerinin dizi içerisinde hiç var olmadığı durumda kontrol edilmeli.
 
 
-### Görev 3: Main metodun içinden başka bir metod çağırımı yapın. Tüm işlemler bu yeni çağırım yaptığınız metod içinde yapılmalı
+## Görev 2: Main metodun içinden başka bir metod çağırımı yapın. Tüm işlemler bu yeni çağırım yaptığınız metod içinde yapılmalı
 
 ### Sonuçlar
  * Her sınıf için en az bir tane obje oluşturmalısınız
